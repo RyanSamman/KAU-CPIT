@@ -58,6 +58,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RJqhRAVKmWn1TsPzjj5idxPpqO" />
   <component name="PropertiesComponent">
     <property name="full.screen.before.presentation.mode" value="false" />
