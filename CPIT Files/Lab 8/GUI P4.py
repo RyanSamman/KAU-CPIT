@@ -42,16 +42,16 @@ def main():
 
     # ~~~~~~~~~~~~~~~~ Radios ~~~~~~~~~~~~~~~~
     var = IntVar()
-    R1 = Radiobutton(top_gui, text="Pattern 1", variable=var, value=1)
+    R1 = Radiobutton(top_gui, text="Pattern 1", variable=var, value=1, command=lambda: run())
     R1.grid(row=3, column=1)
 
-    R2 = Radiobutton(top_gui, text="Pattern 2", variable=var, value=2)
+    R2 = Radiobutton(top_gui, text="Pattern 2", variable=var, value=2, command=lambda: run())
     R2.grid(row=3, column=2)
 
-    R3 = Radiobutton(top_gui, text="Pattern 3", variable=var, value=3)
+    R3 = Radiobutton(top_gui, text="Pattern 3", variable=var, value=3, command=lambda: run())
     R3.grid(row=4, column=1)
 
-    R3 = Radiobutton(top_gui, text="Pattern 4", variable=var, value=4)
+    R3 = Radiobutton(top_gui, text="Pattern 4", variable=var, value=4, command=lambda: run())
     R3.grid(row=4, column=2)
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
