@@ -1,1 +1,2 @@
-print("abc123")
+isCorrect = False
+print("Correct" if isCorrect else "Incorrect")
