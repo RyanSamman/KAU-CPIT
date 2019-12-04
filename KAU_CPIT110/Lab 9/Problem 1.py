@@ -14,5 +14,4 @@ def main():
     displaySortedNumbers(num1, num2, num3)
 
 
-if __name__ == '__main__':
-    main()
+main()
