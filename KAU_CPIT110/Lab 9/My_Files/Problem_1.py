@@ -12,11 +12,10 @@ def displaySortedNumbers2(args):
 
 
 def main():
-    in_string = "3, 2.4, 5, 50, 6, 4" #input("Enter numbers to be sorted: ")
+    in_string = input("Enter numbers to be sorted: ")
     in_string = in_string.split(", ")
 
     sorted_numbers = displaySortedNumbers2(in_string)
-    #print(sorted_numbers)
     for i in range(len(sorted_numbers)):
         print(sorted_numbers[i], end=", ")
 
