@@ -1,8 +1,8 @@
-name = "Smith"#input("Enter employee's name: ")
-hours = 10#eval(input("Enter number of hours worked in a week: "))
-payRate = 9.75#eval(input("Enter hourly pay rate: "))
-taxFederal = 0.20#eval(input("Enter federal tax withholding rate: "))
-taxState = 0.09#eval(input("Enter state tax withholding rate: "))
+name = "Smith"  # input("Enter employee's name: ")
+hours = 10  # eval(input("Enter number of hours worked in a week: "))
+payRate = 9.75  # eval(input("Enter hourly pay rate: "))
+taxFederal = 0.20  # eval(input("Enter federal tax withholding rate: "))
+taxState = 0.09  # eval(input("Enter state tax withholding rate: "))
 
 payGross = hours * payRate
 payNet = payGross * (1 - (taxFederal + taxState))
